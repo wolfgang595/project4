@@ -1,9 +1,9 @@
   <script>
-  //simple method to color blue
+  //simple method to color green
   export default {
     methods: {
       changeColor() {
-        this.$emit('change-color', 'blue');
+        this.$emit('change-color', 'green');
       }
     }
   }
@@ -15,18 +15,16 @@
 
 
   <template>
-    <button @click="changeColor">Blue</button>
+    <button @click="changeColor">Green</button>
   </template>
   
 
 
 
 
-
-
   <style scoped>
   button {
-    background-color: blue;
+    background-color: green;
     color: white;
     padding: 10px;
     border: none;
